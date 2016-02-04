@@ -106,4 +106,11 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
     - Example: Prove that if **n** is an integer and **3n+2** is odd, then **n** is odd.
 
 * **VACUOUS AND TRIVIAL PROOF**
-    - _Vacuous Proof_ - 
+    - _Vacuous Proof_
+        - Show that _p_ is false, because _p → q_ must be true when _p_ is false.
+        - ¬p → (p → q)
+    - _Trivial Proof_
+        - Show that _q_ is true, it follows that _p → q_ must also be true.
+        - q → (p → q)
+    
+    - Two exercises we solved in this topic 
