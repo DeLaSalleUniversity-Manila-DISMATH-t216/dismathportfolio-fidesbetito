@@ -89,14 +89,21 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
 * **DIRECT PROOF**
     - In a conditional statement where _p implies q_, assume that _p_ is true and use definitions and previously proven theorems to show that _q_ must also be true.
     - Steps:
-        1. Assume _p_ is _T_
+        1. Assume _p_ is true
         2. Show that _q_ is also true
+    - Example: We must prove that: If **n** is an odd integer, then **n^2** is odd.
 
 ### Week 4:
 
 * We continue with Methods of Proof
 
-* **PROOF BY CONTRADICTION**
+* **PROOF BY CONTRAPOSITION**
     - Also known as _Indirect Proof_
-    - 
+    - We take _¬q_ as hypothesis, and using definitions, and previously proven theorems, we show that _¬p_ must follow.
+    - Steps:
+        1. Assume _¬q_ is true
+        2. Show that  _¬p_ is also true
+    - Example: Prove that if **n** is an integer and **3n+2** is odd, then **n** is odd.
 
+* **VACUOUS AND TRIVIAL PROOF**
+    - _Vacuous Proof_ - 
