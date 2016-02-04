@@ -9,7 +9,7 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
 
 * I learned about logical connectives as presented in the table:
 
-###### LOGICAL CONNECTIVES TABLE
+##### LOGICAL CONNECTIVES TABLE
 | *Logical Symbol*  |  *Logical Operator* | *Logical Expression* | *Shorthand* | *Formula* | 
 | :-----: |:-------:|:--------:| :-------: | :-----: |
 | ¬ | Negation | val(¬p) = 1 - val(p) | not | ¬p |
@@ -32,19 +32,19 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
 
 * In this week, I was introduced to a new set of laws in mathematics called **LOGICAL EQUIVALENCES**:
 
-###### LOGICAL EQUIVALENCES AND PROOF BY TRUTH TABLE
+##### LOGICAL EQUIVALENCES AND PROOF BY TRUTH TABLE
 |  **LAW**  |  **EQUIVALENCE**  |
 | :------: | :-----------------------------: |
-|  _Identity Laws_  |  p ∨ F ≡ T  ;;  p ∧ F ≡ T  |
-|  _Domination Laws_  |  p ∨ T ≡ T  ;;  p ∧ F ≡ F  |
-|  _Negation Laws_  |  p ∨ ¬p ≡ T  ;;  p ∧ ¬p ≡ F  |
+|  _Identity Laws_  |  p ∨ F ≡ T  <br>  p ∧ F ≡ T  |
+|  _Domination Laws_  |  p ∨ T ≡ T  <br>  p ∧ F ≡ F  |
+|  _Negation Laws_  |  p ∨ ¬p ≡ T  <br>  p ∧ ¬p ≡ F  |
 |  _Double Negation Law_  |  ¬(¬p) ≡ p  |
-|  _Idempotent Laws_  |  p ∨ p ≡ p  ;;  p ∧ p ≡ p  |
-| _Distributive Laws_  |  p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)  ;;  p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)  |
-|  _Commutative Laws_  |  p ∨ q ≡ q ∨ p  ;;  p ∧ q ≡ q ∧ p  |
-|  _Associative Laws_  |  (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)  ;;  (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)  |
-|  _De Morgan's Laws_  |  ¬(p ∧ q) ≡ ¬p ∨ ¬q  ;;  ¬(p ∨ q) ≡ ¬p ∧ ¬q  |
-|  _Absorption Laws_  |  p ∨ (p ∧ q) ≡ p  ;;  p ∧ (p ∨ q) ≡ p  |
+|  _Idempotent Laws_  |  p ∨ p ≡ p  <br>  p ∧ p ≡ p  |
+| _Distributive Laws_  |  p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)  <br>  p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)  |
+|  _Commutative Laws_  |  p ∨ q ≡ q ∨ p  <br>  p ∧ q ≡ q ∧ p  |
+|  _Associative Laws_  |  (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)  <br>  (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)  |
+|  _De Morgan's Laws_  |  ¬(p ∧ q) ≡ ¬p ∨ ¬q  <br>  ¬(p ∨ q) ≡ ¬p ∧ ¬q  |
+|  _Absorption Laws_  |  p ∨ (p ∧ q) ≡ p  <br>  p ∧ (p ∨ q) ≡ p  |
 
 * Using logic, we were able to conclude that Superman does not exist!
 
@@ -69,7 +69,7 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
     - Quantifiers
     - Rules of Inference
  
-###### RULES OF INFERENCE TABLE   
+##### RULES OF INFERENCE TABLE   
 |  **TYPE**  |  **RULE OF INFERENCE**  |  **TAUTOLOGY**  |
 | -------: | :--------------: | :--------- |
 |  _Modus Ponens_  |  p, p → q ∴ q  |  (p ∧ (p → q)) → q  |
@@ -113,4 +113,20 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
         - Show that _q_ is true, it follows that _p → q_ must also be true.
         - q → (p → q)
     
-    - Two exercises we solved in this topic 
+    - Two exercises were solved in this topic:
+        - If there are 30 students in this course this semester, then 6^2 = 36.
+            - TRIVIAL
+        - If 6 is a prime number, then 6^2=30
+            - VACUOUS
+        
+* **PROOF BY CONTRADICTION**
+    - Show that assuming ¬p is true leads to contradiction.
+    - ¬p ≡ T
+    - Steps:
+        1. Assume that the premise is not true
+        2. Show that (a.) will end up in a contradiction
+    - Example: Prove that √2 is irrational by giving a proof by contradiction.
+
+* **RATIONAL NUMBER**
+    - If _r_ is rational, _r_ can be written as _p/q_ where _q ≠ 0_ and where _p_ and _q_ have no common factors other than +1 and -1.
+    - 
