@@ -1,6 +1,8 @@
 # dismathportfolio-fidesbetito
 dismathportfolio-fidesbetito created by Classroom for GitHub
 
+___
+
 ### Week 1:
 
 * We were introduced to a new subject called, DISCRETE MATHEMATICS or DISMATH.
@@ -28,9 +30,11 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
     - converse of p→q which is q → p
     - contrapositive of p→q which is ¬q → ¬p
 
+___
+
 ### Week 2:
 
-* In this week, I was introduced to a new set of laws in mathematics called **LOGICAL EQUIVALENCES**:
+* In this week, we were introduced to a new set of laws in mathematics called **LOGICAL EQUIVALENCES**:
 
 ##### LOGICAL EQUIVALENCES AND PROOF BY TRUTH TABLE
 |  **LAW**  |  **EQUIVALENCE**  |
@@ -55,6 +59,8 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
 * **Quantifiers** indicate the generality of the open sentence in which a variable occurs.
     - Existential Quantifier - "there exists" - if and only if P(x) is true for at least one value of x in the domain.
     - Universal Quantifier - "then exists" - many mathematical statements assert that a property is true for all values of a variable in a particular domain.
+
+___
 
 ### Week 3:
 
@@ -93,6 +99,8 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
         2. Show that _q_ is also true
     - Example: We must prove that: If **n** is an odd integer, then **n^2** is odd.
 
+___
+
 ### Week 4:
 
 * We continue with Methods of Proof
@@ -114,9 +122,9 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
         - q → (p → q)
     
     - Two exercises were solved in this topic:
-        - If there are 30 students in this course this semester, then 6^2 = 36.
+        - If there are **30** students in this course this semester, then **6^2 = 36**.
             - TRIVIAL
-        - If 6 is a prime number, then 6^2=30
+        - If **6** is a prime number, then **6^2=30**.
             - VACUOUS
         
 * **PROOF BY CONTRADICTION**
@@ -125,8 +133,32 @@ dismathportfolio-fidesbetito created by Classroom for GitHub
     - Steps:
         1. Assume that the premise is not true
         2. Show that (a.) will end up in a contradiction
-    - Example: Prove that √2 is irrational by giving a proof by contradiction.
+    - Example: Prove that **√2** is irrational by giving a proof by contradiction.
 
 * **RATIONAL NUMBER**
     - If _r_ is rational, _r_ can be written as _p/q_ where _q ≠ 0_ and where _p_ and _q_ have no common factors other than +1 and -1.
-    - 
+    - Steps:
+        1. Assume that the premise is true
+        2. Show that (a.) ends up in contradiction
+    - Example: Give a proof by contradiction of the theorem "If **3n+2** is odd, then **n** is odd."
+        - This example almost took up the whole class time because of how confused we got about the problem!
+
+* **NEGATION OF IMPLICATION**
+    - The negation of the statement "If _p_ is true, then _q_ is true" is the statement "There is at least one case where _p_ is true and _q_ is false."
+
+* **CONTRADICTIONS AND IMPLICATIONS**
+    - "If _p_ is true, then _q_ is true" must be proved using contradiction.
+    - Steps:
+        - Assume that _p_ is true and _q_ is false
+        - Derive a contradiction
+        - Conclude that if _p_ is true, then _q_ must be as well
+
+* **PROOF BY EQUIVALENCE (Biconditionals)**
+    - To prove a theorem that is a biconditional statement, _p ↔ q_, we show that _p → q_ and _q → p_ are both true.
+    - Example: If **n** is an integer, **n** is even if and only if **n^2** is even.
+        - We are given this: _r → s_
+            - We must show that both _r_ and _s_ are even.
+
+___
+
+### Week 5:
