@@ -162,3 +162,23 @@ ___
 ___
 
 ### Week 5:
+
+- For week 5, we only had one meeting due to the cancellation of classes last Monday in celebration of Chinese New year.
+- For the only class we had this week, we solved more problems:
+    - If _n_ is a positive integer, then _n_ is odd if and only if _n^2_ is odd.
+    - For any natural number _n_, _n_ is even if and only if _n^2_ is even.
+    - Show that these statements about the integer _n_ are equivalent:
+        - P1: _n_ is even
+        - P2: _n-1_ is odd
+        - P2: _n^2_ is even
+    - Prove or disprove the following theorem: 
+        - Every positive integer is the sum os the squares of two integers
+    
+* **MATHEMATICAL INDUCTION**
+    - We are given a sequence of propositions that we would like to prove.
+    - The sequence:
+        - _P(1) P(2) P(3) P(k) P(k+1)_
+    - Steps:
+        1. Basis step: _P(1)_ is shown to be true
+        2. Do the inductive step
+    - Example: Prove _P(n) = 1 + 2 + 3 + ... + n = n(n+1)/2_
