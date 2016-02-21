@@ -97,7 +97,7 @@ ___
     - Steps:
         1. Assume _p_ is true
         2. Show that _q_ is also true
-    - Example: We must prove that: If **n** is an odd integer, then **n^2** is odd.
+    - Example: We must prove that: If **n** is an odd integer, then **n<sup>2</sup>** is odd.
 
 ___
 
@@ -122,9 +122,9 @@ ___
         - q → (p → q)
     
     - Two exercises were solved in this topic:
-        - If there are **30** students in this course this semester, then **6^2 = 36**.
+        - If there are **30** students in this course this semester, then **6<sup>2</sup> = 36**.
             - TRIVIAL
-        - If **6** is a prime number, then **6^2=30**.
+        - If **6** is a prime number, then **6<sup>2</sup>=30**.
             - VACUOUS
         
 * **PROOF BY CONTRADICTION**
@@ -155,7 +155,7 @@ ___
 
 * **PROOF BY EQUIVALENCE (Biconditionals)**
     - To prove a theorem that is a biconditional statement, _p ↔ q_, we show that _p → q_ and _q → p_ are both true.
-    - Example: If **n** is an integer, **n** is even if and only if **n^2** is even.
+    - Example: If **n** is an integer, **n** is even if and only if **n<sup>2</sup>** is even.
         - We are given this: _r → s_
             - We must show that both _r_ and _s_ are even.
 
@@ -165,12 +165,12 @@ ___
 
 - For week 5, we only had one meeting due to the cancellation of classes last Monday in celebration of Chinese New year.
 - For the only class we had this week, we solved more problems:
-    - If _n_ is a positive integer, then _n_ is odd if and only if _n^2_ is odd.
-    - For any natural number _n_, _n_ is even if and only if _n^2_ is even.
+    - If _n_ is a positive integer, then _n_ is odd if and only if _n<sup>2</sup>_ is odd.
+    - For any natural number _n_, _n_ is even if and only if _n<sup>2</sup>_ is even.
     - Show that these statements about the integer _n_ are equivalent:
         - P1: _n_ is even
         - P2: _n-1_ is odd
-        - P2: _n^2_ is even
+        - P2: _n<sup>2</sup>_ is even
     - Prove or disprove the following theorem: 
         - Every positive integer is the sum os the squares of two integers
     
@@ -180,5 +180,21 @@ ___
         - _P(1) P(2) P(3) P(k) P(k+1)_
     - Steps:
         1. Basis step: _P(1)_ is shown to be true
-        2. Do the inductive step
+        2. Do the inductive step:
+            "If _P(k+1)_ is true whenever _P(k)_ is true, then _P_ is true for all positive integer."
     - Example: Prove _P(n) = 1 + 2 + 3 + ... + n = n(n+1)/2_
+___
+
+### Week 6:
+
+* **SUMMATION**
+    - The notation for sum of _a<sub>m</sub>, a<sub>m+1</sub>, ..., a<sub>n</sub>_ is _∑<sup>a</sup><sub>i=m </sub>a<sub>i</sub>_ where _i_ is the index of summation.
+    - Example: ∑<sup>a</sup><sub>i=m </sub> = 1 + 2 + 3 + ... + n
+    - We also proved the theorem: The sum of the first n powers of two is 2<sup>n</sup>-1.
+
+* **RECURSIVE/INDUCTIVE DEFINITION**
+    - Basis step: Specify the value of the function at zero
+    - Recursive step: Give a rule for finding its value at an integer from its values at smaller integers
+    - Example: Find f(1), f(2), f(3), f(4) of the following recursive function.
+
+* 
