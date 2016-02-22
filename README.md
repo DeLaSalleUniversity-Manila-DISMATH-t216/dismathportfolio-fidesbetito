@@ -190,7 +190,7 @@ ___
 * **SUMMATION**
     - The notation for sum of _a<sub>m</sub>, a<sub>m+1</sub>, ..., a<sub>n</sub>_ is _∑<sup>a</sup><sub>i=m </sub>a<sub>i</sub>_ where _i_ is the index of summation.
     - Example: ∑<sup>a</sup><sub>i=m </sub> = 1 + 2 + 3 + ... + n
-    - We also proved the theorem: The sum of the first n powers of two is 2<sup>n</sup>-1.
+    - We also proved the theorem: The sum of the first n powers of two is _2<sup>n</sup>-1_.
 
 * **RECURSIVE/INDUCTIVE DEFINITION**
     - Basis step: Specify the value of the function at zero
@@ -226,15 +226,15 @@ ___
     - CONDITIONAL STATEMENTS </br>
         (p ∧ _condition_) {S} q </br>
         (p ∧ _¬condition_) → q </br>
-        ∴ p {*if* _condition_ *then* _S_} q
+        ∴ p {**if** _condition_ **then** _S_} q
         - Example: Verify that the following program segment is correct with respect to the initial assertion _T_ and the final assertion _y ≥ x_. </br>
-            if _x>y_ then </br>
+            **if** _x>y_ **then** </br>
             _y=x_
     - IF-ELSE STATEMENT
         (p ∧ _condition_) {S<sub>1</sub>} q </br>
         (p ∧ _¬condition_) {S<sub>2</sub>} q </br>
         ∴ p {*if* _condition_ *then* _S<sub>1</sub>_ *else* _S<sub>2</sub>_} q
-        - Example: if _x<0_ then </br> _abs= -x_ </br> else </br> _abs = x_
+        - Example: **if** _x<0_ **then** </br> _abs= -x_ </br> **else** </br> _abs = x_
 
 * **POWER SERIES**
     - ∑<sup>∞</sup><sub>n = 0</sub> a<sub>n</sub>x<sup>n</sup> </br>
