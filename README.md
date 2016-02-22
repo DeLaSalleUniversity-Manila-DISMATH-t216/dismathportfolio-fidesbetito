@@ -195,6 +195,51 @@ ___
 * **RECURSIVE/INDUCTIVE DEFINITION**
     - Basis step: Specify the value of the function at zero
     - Recursive step: Give a rule for finding its value at an integer from its values at smaller integers
-    - Example: Find f(1), f(2), f(3), f(4) of the following recursive function.
+    - Example: Find _f(1), f(2), f(3), f(4)_ of the following recursive function.
 
-* 
+* **RECURSIVE ALGORITHMS**
+    - It solves a problem by reducing it to an instance of the same problem with smaller input.
+        - Recall: <u>Algorithm</u> - finite set of precise instructions for performing a computation/solving a problem.
+    - Examples:
+        - What is the recursive algorithm _n!_?
+        - Give a recursive algorithm for computing _a<sup>n</sup>_, where _a_ is a nonzero real number and _n_ is a nonnegative integer.
+
+* **PROGRAM CORRECTNESS**
+    - We need a proof to show that the program always gives the correct output.
+        - PROGRAM VERIFICATION
+            - Proof of correctness of programs
+            - Uses the rules of inference and various proof techniques including mathematical induction
+            - It is said to be correct if it produces the correct output for every possible input:
+                1. Show that the correct answer is obtained if the program terminates (Partial Correctness)
+                2. Show that the program always terminates
+        - PARTIAL CORRECTNESS
+            - Two propositions are used to specify what it means for a program to produce the correct output:
+                1. Initial Assertion - _p_ - gives the properties that the input values must have
+                2. Final Assertion - _q_ - gives the properties that the output of the program should have, if the program did what it was told
+
+* **HOARE TRIPLE**
+    - p{s}q
+    - A program, _S_, is said to be partially correct with respect to the initial assertion _p_ and the final assertion _q_ if whenever _p_ is true for the input values of _S_ and _S_ terminates, then _q_ is true for the output values of _S_.
+    - Example: Given the initial assertion _p: x=1_ and the final assertion _q: z=3_, show the partial correctness of the program segment: </br> y = 2 </br> z = x + y
+
+* **RULES OF INFERENCE**
+    - CONDITIONAL STATEMENTS </br>
+        (p ∧ _condition_) {S} q </br>
+        (p ∧ _¬condition_) → q </br>
+        ∴ p {*if* _condition_ *then* _S_} q
+        - Example: Verify that the following program segment is correct with respect to the initial assertion _T_ and the final assertion _y ≥ x_. </br>
+            if _x>y_ then </br>
+            _y=x_
+    - IF-ELSE STATEMENT
+        (p ∧ _condition_) {S<sub>1</sub>} q </br>
+        (p ∧ _¬condition_) {S<sub>2</sub>} q </br>
+        ∴ p {*if* _condition_ *then* _S<sub>1</sub>_ *else* _S<sub>2</sub>_} q
+        - Example: if _x<0_ then </br> _abs= -x_ </br> else </br> _abs = x_
+
+* **POWER SERIES**
+    - ∑<sup>∞</sup><sub>n = 0</sub> a<sub>n</sub>x<sup>n</sup> </br>
+        where _a<sub>0</sub>, a<sub>1</sub>, a<sub>2</sub>, ..._ is a given sequence of constants, and _x_ is a real variable.
+    - Examples:
+        - 1 + r + r<sup>2</sup> + r<sup>3</sup> + ... = 1/(1-r)
+        - Represent as power series: 1/(1+x)
+        - Find the corresponding function: 1 - x<sup>2</sup> + x<sup>4</sup> - x<sup>6</sup> + ... 
