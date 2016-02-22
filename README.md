@@ -230,7 +230,7 @@ ___
         - Example: Verify that the following program segment is correct with respect to the initial assertion _T_ and the final assertion _y ≥ x_. </br>
             **if** _x>y_ **then** </br>
             _y=x_
-    - IF-ELSE STATEMENT
+    - IF-ELSE STATEMENT </br>
         (p ∧ _condition_) {S<sub>1</sub>} q </br>
         (p ∧ _¬condition_) {S<sub>2</sub>} q </br>
         ∴ p {*if* _condition_ *then* _S<sub>1</sub>_ *else* _S<sub>2</sub>_} q
@@ -243,3 +243,11 @@ ___
         - 1 + r + r<sup>2</sup> + r<sup>3</sup> + ... = 1/(1-r)
         - Represent as power series: 1/(1+x)
         - Find the corresponding function: 1 - x<sup>2</sup> + x<sup>4</sup> - x<sup>6</sup> + ... 
+
+___
+
+**QUIZ 1**
+
+___
+
+### Week 7:
