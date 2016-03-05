@@ -262,4 +262,37 @@ ___
     * **Set Builder Notation**
     </br>    ↳ {x | some property x satisfies}
 * **Venn Diagrams**
-|
+    - A 
+        </br>![Screenshot](https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-fidesbetito/blob/master/Screen.Shot.2016-03-05.at.19.55.55.png)
+    - B
+        </br>![Screenshot](https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-fidesbetito/blob/master/Screen.Shot.2016-03-05.at.19.56.06.png)
+    - UNION
+        - A ⋃ B ≡ (x ∈ A) ∧ (x ∈ B)
+        </br>![Screenshot](https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-fidesbetito/blob/master/Screen.Shot.2016-03-05.at.19.56.24.png)
+    - INTERSECTION
+        - A ⋂ B ≡ (x ∈ A) ∨ (x ∈ B)
+        </br>![Screenshot](https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-fidesbetito/blob/master/Screen.Shot.2016-03-05.at.19.56.51.png)
+    - DIFFERENCE
+        - A - B
+        </br>![Screenshot](https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-fidesbetito/blob/master/Screen.Shot.2016-03-05.at.19.57.20.png)
+    - DIFFERENCE
+        - A \ B ≡ (x ∈ A) ∧ (x ∉ B)
+        </br>![Screenshot](https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-fidesbetito/blob/master/Screen.Shot.2016-03-05.at.19.57.33.png)
+    - SYMMETRIC DIFFERENCE
+        - A ∆ B ≡ {x | (x ∈ A) ∧ (x ∉ B) ∨ (x ∈ B) ∧ (x ∉ A)}
+        </br>![Screenshot](https://github.com/DeLaSalleUniversity-Manila-DISMATH-t216/dismathportfolio-fidesbetito/blob/master/Screen.Shot.2016-03-05.at.19.57.48.png)
+
+* **SET IDENTITIES**
+    - Very similar to logical equivalences
+|  **LAW**  |  **EQUIVALENCE**  |
+| :------: | :-----------------------------: |
+|  _Identity Laws_  |  A ∩ U ≡ A  <br>  A ∪ ∅ ≡ A  |
+|  _Domination Laws_  |  A ∪ U ≡ U  <br>  A ∩ ∅ ≡ ∅  |
+|  _Idempotent Laws_  |  A ∪ A ≡ A  <br>  A ∩ A ≡ A  |
+|  _Complementation Law_  |  (A¯) ≡ A  |
+|  _Double Negation Law_  |  ¬(¬p) ≡ p  |
+| _Distributive Laws_  |  p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)  <br>  p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)  |
+|  _Commutative Laws_  |  p ∨ q ≡ q ∨ p  <br>  p ∧ q ≡ q ∧ p  |
+|  _Associative Laws_  |  (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)  <br>  (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)  |
+|  _De Morgan's Laws_  |  ¬(p ∧ q) ≡ ¬p ∨ ¬q  <br>  ¬(p ∨ q) ≡ ¬p ∧ ¬q  |
+|  _Absorption Laws_  |  p ∨ (p ∧ q) ≡ p  <br>  p ∧ (p ∨ q) ≡ p  |
