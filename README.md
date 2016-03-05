@@ -251,3 +251,15 @@ ___
 ___
 
 ### Week 7:
+
+* **INTRODUCTION TO SET THEORY**
+    - A _set_ is an unordered collection of distinct objects, which may be anything (including other sets).
+        - {a,b,c,d,e}
+        </br>    ↳ *Set Notation:* curly braces with commas separating out the elements 
+* **Empty Set**
+</br>   ↳ { } = ∅
+    - no elements
+    * **Set Builder Notation**
+    </br>    ↳ {x | some property x satisfies}
+* **Venn Diagrams**
+|
