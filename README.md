@@ -284,15 +284,18 @@ ___
 
 * **SET IDENTITIES**
     - Very similar to logical equivalences
-|  **LAW**  |  **EQUIVALENCE**  |
+
+##### SET IDENTITIES TABLE
+|  **LAW**  |  **IDENTITY**  |
 | :------: | :-----------------------------: |
-|  _Identity Laws_  |  A ∩ U ≡ A  <br>  A ∪ ∅ ≡ A  |
-|  _Domination Laws_  |  A ∪ U ≡ U  <br>  A ∩ ∅ ≡ ∅  |
-|  _Idempotent Laws_  |  A ∪ A ≡ A  <br>  A ∩ A ≡ A  |
-|  _Complementation Law_  |  (A¯) ≡ A  |
-|  _Double Negation Law_  |  ¬(¬p) ≡ p  |
-| _Distributive Laws_  |  p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)  <br>  p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)  |
-|  _Commutative Laws_  |  p ∨ q ≡ q ∨ p  <br>  p ∧ q ≡ q ∧ p  |
-|  _Associative Laws_  |  (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)  <br>  (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)  |
-|  _De Morgan's Laws_  |  ¬(p ∧ q) ≡ ¬p ∨ ¬q  <br>  ¬(p ∨ q) ≡ ¬p ∧ ¬q  |
-|  _Absorption Laws_  |  p ∨ (p ∧ q) ≡ p  <br>  p ∧ (p ∨ q) ≡ p  |
+|  _Identity Laws_  |  A ⋂ U ≡ A  <br>  A ⋃ ∅ ≡ A  |
+|  _Domination Laws_  |  A ⋃ U ≡ U  <br>  A ⋂ ∅ ≡ ∅  |
+|  _Idempotent Laws_  |  A ⋃ A ≡ A  <br>  A ⋂ A ≡ A  |
+|  _Complementation Law_  |  (A¯)‾ ≡ A  |
+|  _Commutative Laws_  |  A ⋃ B ≡ B ⋃ A  <br>  A ⋂ B ≡ B ⋂ A  |
+| _Associative Laws_  |  A ⋃ (B ⋃ C) ≡ (A ⋃ B) ⋃ C  <br>  A ⋂ (B ⋂ C) ≡ (A ⋂ B) ⋂ C  |
+|  _Distributive Laws_  |  A ⋃ (B ⋂ C) ≡ (A ⋃ B) ⋂ (A ⋃ C) <br>  A ⋂ (B ⋃ C) ≡ (A ⋂ B) ⋃ (A ⋂ C)  |
+|  _De Morgan's Laws_  |  (A ⋂ B)‾ ≡ A‾ ⋃ B‾  <br>  (A ⋃ B)‾ ≡ A‾ ⋂ B‾  |
+|  _Absorption Laws_  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
+|  _Complement Laws_  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
+
