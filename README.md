@@ -299,3 +299,81 @@ ___
 |  _Absorption Laws_  |  A ⋃ (A ⋂ B) ≡ A  <br>  A ⋂ (A ⋃ B) ≡ A  |
 |  _Complement Laws_  |  A ⋃ A‾ ≡ U  <br>  A ⋂ A‾ ≡ ∅  |
 
+- **SUBSETS**: A set _S_ is a subset of a set _T_ (denotes S ⊆ T) if all elements of _S_ are also elements of _T_.
+- **POWER SET**: A set of all subsets.
+- **CARDINALITY**: The number of element it contains. If _S_ is a set, we denote its cardinality by writing |S|.
+    - **Infinite Cardinalities**: alaph-null (0,1,2,3,...)
+
+* **FUNCTIONS**
+    - _A_ & _B_ are sets
+    -  A function _f_ from _A_ to _B_ is an assignment of exactly one element of _B_ to each element of _A_.
+    -  Functions are also called MAPPINGS or TRANSFORMATIONS.
+        - f: A to B </br>
+            ↳ A: domain </br>
+            ↳ B: co-domain
+        - **Range** - actually occuring values
+
+* **IMAGE**
+    - If _f(a) = b_, _b- is the image of _A_.
+    - The range of _f_ is the set of all images of elements of _a_.
+
+* **TYPES OF FUNCTIONS**
+    - One - to - one Function (_Injection_)</br>
+        ↳ functions that never assign the same value to two different domain elements.
+    - Onto Function (_Surjective_)</br>
+        ↳ functions have equal range & co-domain.
+    - One - to - one Correspondence (_Bijection_)</br>
+        ↳ function is both one - to - one and onto.
+___
+
+### Week 8:
+
+* **ALGORITHMS**
+    - A finite set of precise instructions for performing a computation or for solving a problem.
+    - **Properties of Algorithms**: </br>
+        ⇾ _Input_ - has input values from a specified set </br>
+        ⇾ _Output_ - solution to the problem </br>
+        ⇾ _Definiteness_ - defined precisely </br>
+        ⇾ _Correctness_ - produce the correct output values </br>
+        ⇾ _Finiteness_ - produce the desired output </br>
+        ⇾ _Effectiveness_ - perform exactly and in a finite amount of time </br>
+        ⇾ _Generality_ - applicable for all problems of the desired form
+* **PSEUDOCODE**
+    - high - level desciption of an algorithm that uses the structural conventions of a programming language 
+    - intended for human reading
+    - **Preconditions** - describe valid input
+    - **Postconditions** - conditions that the output should satisfy
+___
+
+### Week 9:
+
+- For this week, we discussed the types of algorithm procedures that we can use when writing a pseudocode
+
+* **SEARCHING ALGORITHMS** </br>
+    ↳ Problem of locating an algorithm in an ordered list
+    - **Binary Search** - comparing the middle values of a list then repeated until the desired output is found.
+
+* **SORTING ALGORITHMS** </br>
+    ↳ Problem of assorting elements into increasing order
+    - **Bubble Sort** - compares the first two elements then interchanging them if they are in the incorrect order.
+    - **Insertion Sort** - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+
+* **GREEDY ALGORITHMS** </br>
+    ↳ Algorithms that make what seems to be the "best" choice at each step.
+
+- We also started on the **Growth of Functions** (Big-O Notation)
+___
+
+### Week 10:
+
+- We resume the discussion on the Growth of Functions.
+
+* **Big-O Notation**
+    - Let _f_ and _g_ be functions from R-R; _f(x)_ is _O(g(x))_ if there are constants _C_ and _k_ such that: </br>
+        |f(x)| ≤ C|g(x)| </br>
+    whenever _x > k_.
+
+* **Big-Omega and Big-Theta Notation**
+    - Big-O Notation does not provide a lowerbound for the size of f(x). </br>
+        ↳ **Big-Omega** (Big-Ω) - lower bound </br>
+        ↳ **Big-Theta** (Big-Θ) - both upper and lower bound
