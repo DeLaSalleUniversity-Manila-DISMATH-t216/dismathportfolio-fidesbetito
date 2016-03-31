@@ -377,3 +377,35 @@ ___
     - Big-O Notation does not provide a lowerbound for the size of f(x). </br>
         ↳ **Big-Omega** (Big-Ω) - lower bound </br>
         ↳ **Big-Theta** (Big-Θ) - both upper and lower bound
+___
+
+### Quiz 2
+___
+
+### Week 11: HOLY WEEK
+___
+
+### Week 12:
+
+* **Graph Theory**
+    - Easiest coverage for the quiz
+    - _Degree_ - number of degrees at a node/vertex
+    - _Handshaking Theory_ - 2e = ∑deg(v)
+    - _Path_ - sequence of edges travelling from vertex to vertex along the edges
+    - _Euler Circuit_ - passess through every edge and goes back to starting point
+    - _Euler Path_ - simple path containing every edge of the graph
+    - _Hamilton Path_ - passes through every vertex
+    - _Hamilton Circuit_ - passes through every vertex then goes back to the starting point
+    - _Matrices of Graphs_ - 1 for adjacent; 0 for non-adjacent
+    - _Incidence of Matrices_ - Matric between vertices and edges
+    - _Isomorphism of Graphs_ - "rubberband"
+
+* **Planar Graph**
+    - no edges cross in a graph
+    - _Euler's Formula_ - regions = edges - vertices + 2
+    - _Euler's Characteristic_ - ℵ = regions - |edges| + |vertices| = 2
+
+* **Homeomorphic Graphs**
+    - can be obtained from the same graph by a sequence of elementary subdivisions
+        - _Elementary Subdivision_ - everything is planar graph
+    - _Kuratowski's Theorem_ - nonplanar if and only if it contains a subgraph homeophobic to K<sub>3,3</sub> and K<sub>5</sub>
