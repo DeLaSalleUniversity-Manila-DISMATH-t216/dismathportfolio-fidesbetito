@@ -409,3 +409,41 @@ ___
     - can be obtained from the same graph by a sequence of elementary subdivisions
         - _Elementary Subdivision_ - everything is planar graph
     - _Kuratowski's Theorem_ - nonplanar if and only if it contains a subgraph homeophobic to K<sub>3,3</sub> and K<sub>5</sub>
+___
+
+*** QUIZ 3
+___
+
+*** Week 13:
+- Last week of lessons before finals!
+
+* **Graph Coloring**
+    - assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color
+    - _Four Color Theorem_ - the chromatic number of a planar graph is no greater than four
+
+* **Tress**
+    - connected undirected graph with no simple circuits
+    - data structure that emulates a heirarchical tree structure with a set of linked notes
+    - used to construct efficient algorithms for locating an item in a set
+    - _Forest_ - multiple trees
+    - _Rooted Tree_ - a tree in which one vertex has been designated as the root and every edge
+        - leaves - nodes that do not have children
+        - ancestors - nodes on top
+        - descendants - children/grandchildren
+    - _Subtree_
+    - _M-ary tree_ - if every internal vertex has no more than m children
+        - an m-ary tree with m = 2 is called a _binary tree_
+
+* **Modeling Computation**
+    - _Language and Grammars_
+        - Grammars - used to generate the words of a language and to determine whether a word is in a language
+        - Compiler - reads a program written in a source language and translate it into an equivalent program in a target language.
+        - Formal Language - automatic translation of one language to another
+            - well defined set of rules
+
+* **Alphabet & String**
+    - common way to talk about words, numbers, etc.
+
+* **Automata Theory**
+    - studies the law of computation
+    - Finite Automata
