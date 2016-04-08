@@ -421,7 +421,7 @@ ___
     - assignment of a color to each vertex of the graph so that no two adjacent vertices are assigned the same color
     - _Four Color Theorem_ - the chromatic number of a planar graph is no greater than four
 
-* **Tress**
+* **Trees**
     - connected undirected graph with no simple circuits
     - data structure that emulates a heirarchical tree structure with a set of linked notes
     - used to construct efficient algorithms for locating an item in a set
@@ -446,4 +446,13 @@ ___
 
 * **Automata Theory**
     - studies the law of computation
-    - Finite Automata
+    - Finite Automata - simplest model of automata
+        - initial state
+        - final/acceptance state
+        - dead/stuck state
+        - transition
+
+* **Lexical Analysis**
+    - process where the stream of characters making up the source program into a sequence of "words" that make up the source code.
+
+* **Finite State Machine**
