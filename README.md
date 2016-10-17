@@ -58,11 +58,11 @@ ___
 |  _De Morgan's Laws_  |  ¬(p ∧ q) ≡ ¬p ∨ ¬q  <br>  ¬(p ∨ q) ≡ ¬p ∧ ¬q  |
 |  _Absorption Laws_  |  p ∨ (p ∧ q) ≡ p  <br>  p ∧ (p ∨ q) ≡ p  |
 
-* Formula is:
-    > Satisfiable: <u>there exists</u> a row where formula evaluates to true
-    > Unsatisfiable: all rows evaluates to false
-    > Contingent: there is a row evaluating to true; there is a row evaluating to false
-    > Valid: true <u>for all</u> rows
+* Formula is:</br>
+    - Satisfiable: <u>there exists</u> a row where formula evaluates to true</br>
+    - Unsatisfiable: all rows evaluates to false</br>
+    - Contingent: there is a row evaluating to true; there is a row evaluating to false</br>
+    - Valid: true <u>for all</u> rows</br>
         </br>*Note:* the terms above can be used beyond propositional logic 
 
 ___
@@ -81,8 +81,8 @@ ___
 ### Week 4:
 
 * After reviewing First-Order Logic, we moved on to **Quantifiers**:</br>
-    1.Universal Quantifier: "Ɐ" - <u>all</u> objects</br>
-    2.Existential Quantifier: "Ǝ" - <u>some</u> objects
+    1. Universal Quantifier: "Ɐ" - <u>all</u> objects</br>
+    2. Existential Quantifier: "Ǝ" - <u>some</u> objects
 
 * We were told to review basic algebra terms as it is useful in this subject.
 
