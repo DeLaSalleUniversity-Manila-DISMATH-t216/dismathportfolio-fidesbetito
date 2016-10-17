@@ -43,7 +43,7 @@ ___
     - Equivalence
     
 * We were introduced to **LOGICAL EQUIVALENCES**:
-
+<center>
 ##### LOGICAL EQUIVALENCES AND PROOF BY TRUTH TABLE
 |  **LAW**  |  **EQUIVALENCE**  |
 | :------: | :-----------------------------: |
@@ -57,7 +57,7 @@ ___
 |  _Associative Laws_  |  (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)  <br>  (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)  |
 |  _De Morgan's Laws_  |  ¬(p ∧ q) ≡ ¬p ∨ ¬q  <br>  ¬(p ∨ q) ≡ ¬p ∧ ¬q  |
 |  _Absorption Laws_  |  p ∨ (p ∧ q) ≡ p  <br>  p ∧ (p ∨ q) ≡ p  |
-
+</center>
 * Formula is:</br>
     - Satisfiable: <u>there exists</u> a row where formula evaluates to true</br>
     - Unsatisfiable: all rows evaluates to false</br>
