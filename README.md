@@ -38,7 +38,7 @@ ___
     2. Contradiction - always false
     3. Contingency - sometimes true, sometimes false
 
-* *Question: *How can we prove that a propositional formula is a tautology?
+* *Question:* How can we prove that a propositional formula is a tautology?
     - Truth Table
     - Equivalence
     
@@ -80,8 +80,8 @@ ___
 
 ### Week 4:
 
-* After reviewing First-Order Logic, we moved on to **Quantifiers**:
-    1.Universal Quantifier: "Ɐ" - <u>all</u> objects
+* After reviewing First-Order Logic, we moved on to **Quantifiers**:</br>
+    1.Universal Quantifier: "Ɐ" - <u>all</u> objects</br>
     2.Existential Quantifier: "Ǝ" - <u>some</u> objects
 
 * We were told to review basic algebra terms as it is useful in this subject.
