@@ -63,7 +63,7 @@ ___
     > Unsatisfiable: all rows evaluates to false
     > Contingent: there is a row evaluating to true; there is a row evaluating to false
     > Valid: true <u>for all</u> rows
-        *Note:* the terms above can be used beyond propositional logic 
+        </br>*Note:* the terms above can be used beyond propositional logic 
 
 ___
 
@@ -94,4 +94,4 @@ ___
 
 ### Week 5:
 
-* We started the week by discussing the **Rules of Inference: **
+* We started the week by discussing the **Rules of Inference:**
