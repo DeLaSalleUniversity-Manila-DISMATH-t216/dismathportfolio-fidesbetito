@@ -110,7 +110,7 @@ ___
 
 * Followed by the **General Strategies for Proving Theorems:**
 </br>
-   I. **DIRECT PROOF**
+    I. **DIRECT PROOF**
     - In a conditional statement where _p implies q_, assume that _p_ is true and use definitions and previously proven theorems to show that _q_ must also be true.
     - Steps:
         1. Assume _p_ is true
