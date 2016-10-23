@@ -95,3 +95,40 @@ ___
 ### Week 5:
 
 * We started the week by discussing the **Rules of Inference:**
+
+##### RULES OF INFERENCE TABLE   
+|  **TYPE**  |  **RULE OF INFERENCE**  |  **TAUTOLOGY**  |
+| -------: | :--------------: | :--------- |
+|  _Modus Ponens_  |  p, p → q ∴ q  |  (p ∧ (p → q)) → q  |
+|  _Modus Tollens_  |  ¬q, p → q ∴ ¬p |  (¬q ∧ (p → q)) → ¬p  |
+|  _Hypothetical Syllogism_  |  p → q, q → r ∴ p → r  |  ((p → q) ∧ (q → r)) → (p → r)  |
+|  _Or Elimination_  |  p ∨ q, ¬p ∴ q  |  ((p ∨ q) ∧ ¬p) → q  |
+|  _Or Introduction_  |  p ∴ p ∨ q  |  p → p ∨ q  |
+|  _And Elimination_  |  p ∧ q ∴ p  |  (p ∧ q) → p  |
+|  _And Introduction_  |  p, q ∴ p ∧ q  |  ((p) ∧ (q)) → (p ∧ q)  |
+|  _Resolution_  |  p ∨ q, ¬p ∨ r ∴ q ∨ r  |  ((p ∨ q) ∧ (¬p ∨ r)) → q ∨ r  |
+
+* Followed by the **General Strategies for Proving Theorems**
+I. **DIRECT PROOF**
+    - In a conditional statement where _p implies q_, assume that _p_ is true and use definitions and previously proven theorems to show that _q_ must also be true.
+    - Steps:
+        1. Assume _p_ is true
+        2. Show that _q_ is also true
+    - Example: We must prove that: If **n** is an odd integer, then **n<sup>2</sup>** is odd.
+II. **PROOF BY CONTRAPOSITION**
+    - Also known as _Indirect Proof_
+    - We take _¬q_ as hypothesis, and using definitions, and previously proven theorems, we show that _¬p_ must follow.
+    - Steps:
+        1. Assume _¬q_ is true
+        2. Show that  _¬p_ is also true
+    - Example: Prove that if **n** is an integer and **3n+2** is odd, then **n** is odd.
+III. **PROOF BY CONTRADICTION**
+    - Show that assuming ¬p is true leads to contradiction.
+    - ¬p ≡ T
+    - Steps:
+        1. Assume that the premise is not true
+        2. Show that (a.) will end up in a contradiction
+    - Example: Prove that **√2** is irrational by giving a proof by contradiction.
+IV. **CASES**
+    - Apply arguments in different cases and combine the results
+    - Example: Prove that **|xy|=|x||y|.**
