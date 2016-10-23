@@ -117,6 +117,7 @@ I. **DIRECT PROOF**
         2. Show that _q_ is also true
     - Example: We must prove that: If **n** is an odd integer, then **n<sup>2</sup>** is odd.
 </br>
+</br>
 II. **PROOF BY CONTRAPOSITION**
     - Also known as _Indirect Proof_
     - We take _¬q_ as hypothesis, and using definitions, and previously proven theorems, we show that _¬p_ must follow.
@@ -125,6 +126,7 @@ II. **PROOF BY CONTRAPOSITION**
         2. Show that  _¬p_ is also true
     - Example: Prove that if **n** is an integer and **3n+2** is odd, then **n** is odd.
 </br>
+</br>
 III. **PROOF BY CONTRADICTION**
     - Show that assuming ¬p is true leads to contradiction.
     - ¬p ≡ T
@@ -132,6 +134,7 @@ III. **PROOF BY CONTRADICTION**
         1. Assume that the premise is not true
         2. Show that (a.) will end up in a contradiction
     - Example: Prove that **√2** is irrational by giving a proof by contradiction.
+</br>
 </br>
 IV. **CASES**
     - Apply arguments in different cases and combine the results
