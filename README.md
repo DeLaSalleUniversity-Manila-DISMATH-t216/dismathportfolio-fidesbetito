@@ -139,3 +139,17 @@ III. **PROOF BY CONTRADICTION**
 IV. **CASES**
     - Apply arguments in different cases and combine the results
     - Example: Prove that **|xy|=|x||y|.**
+___
+
+(Quiz 1)
+___
+
+###WEEK 6:
+
+- The week was started with a seatwork to help increase the scores in the quiz.
+
+#####FUNCTIONS
+- A function from a set A to a set B assigns each element of A to exactly <u>one</u> element of B.
+- If f maps element a ϵ A to element b ϵ B written as f(a) = b.
+- If f(a) = b, b is called image of a; a is in preimage of b.
+- <u>Range</u> or "actually occurring values" of f is the set of all images in A. 
