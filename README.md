@@ -185,12 +185,12 @@ ___
 ↳ a finite set of precise instructions for performing a computation or for solving a problem.
 <u>Pseudocode</u>:
     ↳ high - level desciption of an algorithm that uses the structural conventions of a programming language 
-    ↳ intended for human reading
-    - **Preconditions** - describe valid input
-    - **Postconditions** - conditions that the output should satisfy
-    - **Generality** - applicable for all problems of the desired form
-    - **Finiteness** - produce the desired output
-    - **Correctness** - produce the correct output values
+    ↳ intended for human reading</br>
+    - **Preconditions** - describe valid input</br>
+    - **Postconditions** - conditions that the output should satisfy</br>
+    - **Generality** - applicable for all problems of the desired form</br>
+    - **Finiteness** - produce the desired output</br>
+    - **Correctness** - produce the correct output values</br>
 
 * **SEARCHING ALGORITHMS** </br>
     ↳ Problem of locating an algorithm in an ordered list
