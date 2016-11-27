@@ -153,3 +153,69 @@ ___
 - If f maps element a ϵ A to element b ϵ B written as f(a) = b.
 - If f(a) = b, b is called image of a; a is in preimage of b.
 - <u>Range</u> or "actually occurring values" of f is the set of all images in A. 
+
+* **TYPES OF FUNCTIONS**
+    - One - to - one Function (_Injection_)</br>
+        ↳ functions that never assign the same value to two different domain elements.
+    - Onto Function (_Surjective_)</br>
+        ↳ functions have equal range & co-domain.
+    - One - to - one Correspondence (_Bijection_)</br>
+        ↳ function is both one - to - one and onto.
+    - Inverse Functions</br>
+        ↳ Bijective function
+        ↳ Onto function not an inverse
+
+* **IMAGE**
+    - If _f(a) = b_, _b- is the image of _A_.
+    - The range of _f_ is the set of all images of elements of _a_.
+    
+* **COMPOSITION OF FUNCTIONS**
+    - Let g: A → B and f: B → C
+    - f(g(x))
+    - inner function is first to be evaluated
+* **CEILING FUNCTION**
+    - largest number following a given integer
+* **FLOOR FUNCTION**
+    - smallest number following a given integer
+___
+
+###WEEK 7:
+
+#####ALGORITHMS
+↳ a finite set of precise instructions for performing a computation or for solving a problem.
+<u>Pseudocode</u>:
+    ↳ high - level desciption of an algorithm that uses the structural conventions of a programming language 
+    ↳ intended for human reading
+    - **Preconditions** - describe valid input
+    - **Postconditions** - conditions that the output should satisfy
+    - **Generality** - applicable for all problems of the desired form
+    - **Finiteness** - produce the desired output
+    - **Correctness** - produce the correct output values
+
+* **SEARCHING ALGORITHMS** </br>
+    ↳ Problem of locating an algorithm in an ordered list
+    - **Binary Search** - comparing the middle values of a list then repeated until the desired output is found.
+* **SORTING ALGORITHMS** </br>
+    ↳ Problem of assorting elements into increasing order
+    - **Bubble Sort** - compares the first two elements then interchanging them if they are in the incorrect order.
+    - **Insertion Sort** - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
+* **GREEDY ALGORITHMS** </br>
+    ↳ Algorithms that make what seems to be the "best" choice at each step.
+    - Greedy coin algorithm
+___
+
+###WEEK 8:
+
+#####GROWTH OF FUNCTIONS
+* **Big-O Notation**
+    - Let _f_ and _g_ be functions from R-R; _f(x)_ is _O(g(x))_ if there are constants _C_ and _k_ such that: </br>
+        |f(x)| ≤ C|g(x)| </br>
+    whenever _x > k_.
+* **Big-Omega and Big-Theta Notation**
+    - Big-O Notation does not provide a lowerbound for the size of f(x). </br>
+        ↳ **Big-Omega** (Big-Ω) - lower bound </br>
+        ↳ **Big-Theta** (Big-Θ) - both upper and lower bound
+___
+
+(Quiz 2)
+___
