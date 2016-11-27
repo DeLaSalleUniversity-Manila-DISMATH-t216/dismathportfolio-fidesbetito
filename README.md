@@ -201,7 +201,7 @@ ___
     - **Insertion Sort** - compares the second element with the first and inserts it before the first element if it is less. Otherwise, it is inserted after the first element.
 * **GREEDY ALGORITHMS** </br>
     ↳ Algorithms that make what seems to be the "best" choice at each step.
-    - Greedy coin algorithm
+    - Greedy coin algorithm</br>
 ___
 
 ###WEEK 8:
