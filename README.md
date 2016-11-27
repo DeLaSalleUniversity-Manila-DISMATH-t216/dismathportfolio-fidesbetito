@@ -177,6 +177,7 @@ ___
     - largest number following a given integer
 * **FLOOR FUNCTION**
     - smallest number following a given integer</br>
+
 ___
 
 ###WEEK 7:
